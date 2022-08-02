@@ -9,9 +9,9 @@ export default function Disclaimer() {
             <section>
                 <div className='container md:w-[1020px] mx-auto py-20'>
                     <div>
-                        <h3 className='text-5xl font-bold text-skin-primary mb-10'>Disclaimer</h3>
+                        <h3 className='text-5xl font-bold text-skin-primary mb-10'>Disclaimer </h3>
                         
-                        <p className="text-xl font-normal text-skin-muted mb-5">The content odfgsdgff this website has been prepared by contributions from people from the Investments community.</p>
+                        <p className="text-xl font-normal text-skin-muted mb-5">The content  this website has been prepared by contributions from people from the Investments community.</p>
                         <p className="text-xl font-normal text-skin-muted mb-5">The content on this website created solely for educational purposes. It is NOT meant to be fiduciary financial advice. When in doubt, a legally registered fiduciary financial advisor may be contacted. In India, a fee-only financial advisor registered with Securities and Exchange Board of India (SEBI) may be contacted.</p>
                         <p className="text-xl font-normal text-skin-muted mb-5">The authors of this website may or may not hold positions, either long or short, in any mutual fund, ETF, stock, bond, or any another investment instrument or securities mentioned on our website. These positions may or may not change in the future without any notification whatsoever. The act of an investment instrument being mentioned on our website does NOT constitute a recommendation or endorsement for or against investment in that instrument.</p>
                         <p className="text-xl font-normal text-skin-muted mb-5">Any and all numerical calculations made on our website in any form may be incorrect and subject to changes without any notification whatsoever. India Investments community and / or the authors of content on this website, cannot be held liable in any form or manner if anyone incurs financial losses in the securities markets based on information, either directly or indirectly, from our website.</p>
