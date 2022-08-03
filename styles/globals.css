@@ -27,7 +27,7 @@
   src: url("../public/fonts/Inter-Bold.woff2");
 }
 @font-face {
-  font-family: "InterExtraBold";
+  font-family: "InterExtraBold"; 
   src: url("../public/fonts/Inter-ExtraBold.woff2");
 }
 @font-face {
@@ -40,7 +40,7 @@
 }
 @font-face {
   font-family: "InterLight";
-  src: url("../public/fonts/Inter-Light.woff2");
+  src: url("../public/fonts/Inter-Light.woff2"); 
 }
 @font-face {
   font-family: "GildaDisplay";

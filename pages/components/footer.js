@@ -10,17 +10,17 @@ export default function Footer() {
                     <ul className="space-y-3">
                         <li>
                             <Link href="#">
-                                <a className="text-lg font-normal text-skin-light">About Us</a>
+                                <a className="text-lg font-normal text-skin-light font-interRegular">About Us</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/disclaimer">
-                                <a className="text-lg font-normal text-skin-light">Disclaimer</a>
+                                <a className="text-lg font-normal text-skin-light font-interRegular">Disclaimer</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="privacy-policy">
-                                <a className="text-lg font-normal text-skin-light">Privacy Policy</a>
+                                <a className="text-lg font-normal text-skin-light font-interRegular">Privacy Policy</a>
                             </Link>
                         </li>
                     </ul>
@@ -29,7 +29,7 @@ export default function Footer() {
                     <ul className='flex md:justify-end mb-2'>
                         <li>
                             <Link href="mailto:support@fundgazer.com">
-                                <a className="text-base font-normal text-skin-light">support@fundgazer.com</a>
+                                <a className="text-base font-normal text-skin-light font-interRegular">support@fundgazer.com</a>
                             </Link>
                         </li>
                     </ul>
@@ -66,7 +66,7 @@ export default function Footer() {
             <section className='bg-skin-dark'>
                 <div className='container mx-auto py-3'>
                     <div>
-                        <p className='text-base font-normal text-skin-light text-center'>@Copyrighted by Fundgazer</p>
+                        <p className='text-base font-normal text-skin-light text-center font-interRegular'>@Copyrighted by Fundgazer</p>
                     </div>
                 </div>
             </section>
