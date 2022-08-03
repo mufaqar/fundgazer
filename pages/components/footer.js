@@ -19,7 +19,7 @@ export default function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="#">
+                            <Link href="privacy-policy">
                                 <a className="text-lg font-normal text-skin-light">Privacy Policy</a>
                             </Link>
                         </li>
