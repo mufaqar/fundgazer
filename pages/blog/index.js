@@ -1,19 +1,24 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Post_template from '../components/post-template'
+
+import Sidebar from '../components/sidebar'
 
 export default function Blog() {
     return (
         <>
             <section>
-                <div className='container mx-auto py-20'>
+                <div className='container mx-auto py-10'>
                     <div className='flex md:flex-row flex-col gap-10'>
-                        {/* All Post Start*/}
-                        <div className='md:w-9/12 w-full'>
+                        {/* Posts Column Start*/}
+                        <div className='md:w-8/12 w-full'>
 
-                            {/* Single Post Start*/}
-                            <div className='flex md:flex-row flex-col gap-8 border-b py-5'>
-                                <div className='md:w-5/12 w-full flex justify-center'>
-                                    <Image src="/images/img1.png" alt='img1' width={341} height={360} className=''></Image>
+                            {/* Main Post Start*/}
+                            <div className='flex md:flex-row flex-col gap-8 border-b py-5 mb-10'>
+                                <div className='md:w-5/12 w-full md:p-0 p-4'>
+                                    <figure className='h-[360px] w-full relative'>
+                                        <Image src="/images/img1.png" alt='img1' layout='fill' className='object-cover rounded-lg'></Image>
+                                    </figure>
                                 </div>
                                 <div className='md:w-7/12 flex flex-col justify-between md:p-0 p-4'>
                                     <div>
@@ -38,22 +43,26 @@ export default function Blog() {
                                     </ul>
                                 </div>
                             </div>
-                            {/* Single Post END*/}    
+                            {/* Main Post END*/}
+
+                            {/* All Posts Start*/}
+                            <div className='flex md:flex-row-reverse flex-col gap-5 border-b py-5 mb-10'>
+                                <Post_template></Post_template>
+                            </div>
+                            <div className='flex md:flex-row-reverse flex-col gap-5 border-b py-5 mb-10'>
+                                <Post_template></Post_template>
+                            </div>
+                            <div className='flex md:flex-row-reverse flex-col gap-5 border-b py-5 mb-10'>
+                                <Post_template></Post_template>
+                            </div>
+                            {/* All Posts END*/}
 
                         </div>
-                        {/* All Post END*/}
+                        {/* Posts Column END*/}
 
                         {/* Sidebar Column Start*/}
-                        <div className='md:w-3/12 w-full'>
-                            <form>
-                                <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
-                                <div class="relative">
-                                    <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-                                        <svg aria-hidden="true" class="w-5 h-5 text-skin-dark dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                                    </div>
-                                    <input type="search" id="search" class="block p-4 pl-10 bg-skin-light text-skin-dark text-sm font-medium border border-black focus:border-[#6F49DD] focus:outline-none py-3 px-4 rounded w-full" placeholder="Search" />
-                                </div>
-                            </form>
+                        <div className='md:w-4/12 w-full'>
+                            <Sidebar/>
                         </div>
                         {/* Sidebar Column End*/}
                     </div>

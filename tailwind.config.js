@@ -24,6 +24,7 @@ module.exports = {
           buttonMuted: 'var(--color-button-muted)',
           bgFooter: 'var(--color-bg-footer)',
           primary: 'var(--color-primary)',
+          secondry: 'var(--color-secondry)',
         }
       }
     },
