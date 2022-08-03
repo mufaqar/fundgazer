@@ -54,7 +54,7 @@ export default function Navbar() {
                     <NavLink to="/our-community">
                         Join Our Community
                     </NavLink>
-                    <NavLink to="/about">
+                    <NavLink to="/blog">
                         Blogs
                     </NavLink>
                 </div>
