@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Sidebar from '../components/sidebar'
 import BlogFooter from '../components/blogFooter'
 import { FaRegThumbsDown, FaRegThumbsUp } from 'react-icons/fa'
+import RelatedPosts from '../components/relatedPosts'
 
 export default function Single_Post() {
     return (
@@ -11,7 +12,7 @@ export default function Single_Post() {
                 <div className='container mx-auto pt-28 pb-10'>
                     <div className='flex md:flex-row flex-col gap-16'>
                         {/* Posts Column Start*/}
-                        <div className='md:w-9/12 w-full'>
+                        <div className='md:w-9/12 w-full p-5'>
                             <div className='mb-7'>
                                 <ul className='mb-5'>
                                     <li>
@@ -111,7 +112,6 @@ export default function Single_Post() {
                                 </ul>
 
                             </div>
-
                         </div>
                         {/* Posts Column END*/}
 
@@ -124,6 +124,7 @@ export default function Single_Post() {
                 </div>
             </section>
 
+            <RelatedPosts />
             <BlogFooter />
         </>
     )
