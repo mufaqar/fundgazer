@@ -40,50 +40,50 @@ export default function Sidebar() {
             </div>
             <div className='border-b md:px-0 p-5'>
                 <h6 className='text-xl font-bold text-skin-dark mb-5 font-productSansBold'>Popular Tags</h6>
-                <ul className='flex flex-wrap gap-3 mb-5'>
+                <ul className='flex flex-wrap gap-2 mb-5'>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Investment</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-3 font-interRegular'>#Investment</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Crypto</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-3 font-interRegular'>#Crypto</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-3 font-interRegular'>#Economy</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Something</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-3 font-interRegular'>#Something</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Crypto</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-3 font-interRegular'>#Crypto</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-3 font-interRegular'>#Economy</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Investment</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-3 font-interRegular'>#Investment</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Crypto</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-3 font-interRegular'>#Crypto</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-3 font-interRegular'>#Economy</a>
                         </Link>
                     </li>
                 </ul>
