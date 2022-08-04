@@ -24,8 +24,19 @@ module.exports = {
           buttonMuted: 'var(--color-button-muted)',
           bgFooter: 'var(--color-bg-footer)',
           primary: 'var(--color-primary)',
+          secondry: 'var(--color-secondry)',
         }
-      }
+      },
+      fontFamily: {
+        productSansBold: ["ProductSansBold", "sans-serif"],
+        productSansReqular: ["ProductSansReqular", "sans-serif"],
+        interBold: ["InterBold", "sans-serif"],
+        interExtraBold: ["InterExtraBold", "sans-serif"],
+        interRegular: ["InterRegular", "sans-serif"],
+        interMedium: ["InterMedium", "sans-serif"],
+        interLight: ["InterLight", "sans-serif"],
+        gildaDisplay: ["GildaDisplay", "sans-serif"],
+      },
     },
   },
   plugins: [],
