@@ -1,6 +1,7 @@
-import { BsDiscord } from 'react-icons/bs'
+import { BsDiscord, BsLinkedin } from 'react-icons/bs'
 import { FaTelegramPlane } from 'react-icons/fa'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Sidebar() {
     return (
@@ -16,52 +17,73 @@ export default function Sidebar() {
                     </div>
                 </form>
             </div>
+            <div className='border-b md:px-0 p-5 mb-5 flex justify-between items-center'>
+                <div className='flex gap-4'>
+                    <div>
+                        <figure className='md:w-[56px] w-[45px] md:h-[53px] h-[45px] relative'>
+                            <Image src="/images/author.png" alt="author.png" layout="fill"></Image>
+                        </figure>
+                    </div>
+                    <div>
+                        <h6 className='font-interBold md:text-sm text-xs font-bold text-skin-primary'>Author</h6>
+                        <Link href="#">
+                            <a className='font-interRegular md:text-xl text-sm font-normal text-skin-dark'>Shashank Gupta</a>
+                        </Link>
+                        <h5 ></h5>
+                    </div>
+                </div>
+                <div>
+                    <Link href="#">
+                        <a><span className='md:text-5xl text-2xl text-[#2867B2]'><BsLinkedin /></span></a>
+                    </Link>
+                </div>
+            </div>
             <div className='border-b md:px-0 p-5'>
                 <h6 className='text-xl font-bold text-skin-dark mb-5 font-productSansBold'>Popular Tags</h6>
                 <ul className='flex flex-wrap gap-3 mb-5'>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='text-base text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Investment</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Investment</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='text-base text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Crypto</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Crypto</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='text-base text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='text-base text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Something</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='text-base text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Crypto</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='text-base text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='text-base text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Investment</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='text-base text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Crypto</a>
                         </Link>
                     </li>
                     <li className='py-2'>
                         <Link href="#">
-                            <a className='text-base text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
+                            <a className='md:text-base text-xs text-skin-primary font-medium border border-[#6F49DD] rounded-full py-2 px-6 font-interRegular'>#Economy</a>
                         </Link>
                     </li>
                 </ul>
@@ -79,7 +101,7 @@ export default function Sidebar() {
                             <a className='text-xs text-skin-muted font-normal font-interRegular'>11 March 2023</a>
                         </Link>
                         <Link href="#">
-                            <a className='text-2xl text-skin-dark font-normal font-productSansReqular'>Best Portfolio InvestmentTips and Tricks</a>
+                            <a className='md:text-2xl text-base text-skin-dark font-normal font-productSansReqular'>Best Portfolio InvestmentTips and Tricks</a>
                         </Link>
                     </li>
                     <li className='py-2 flex flex-col gap-2 mb-5'>
@@ -87,7 +109,7 @@ export default function Sidebar() {
                             <a className='text-xs text-skin-muted font-normal font-interRegular'>11 March 2023</a>
                         </Link>
                         <Link href="#">
-                            <a className='text-2xl text-skin-dark font-normal font-productSansReqular'>Best Portfolio InvestmentTips and Tricks</a>
+                            <a className='md:text-2xl text-base text-skin-dark font-normal font-productSansReqular'>Best Portfolio InvestmentTips and Tricks</a>
                         </Link>
                     </li>
                     <li className='py-2 flex flex-col gap-2 mb-5'>
@@ -95,7 +117,7 @@ export default function Sidebar() {
                             <a className='text-xs text-skin-muted font-normal font-interRegular'>11 March 2023</a>
                         </Link>
                         <Link href="#">
-                            <a className='text-2xl text-skin-dark font-normal font-productSansReqular'>Best Portfolio InvestmentTips and Tricks</a>
+                            <a className='md:text-2xl text-base text-skin-dark font-normal font-productSansReqular'>Best Portfolio InvestmentTips and Tricks</a>
                         </Link>
                     </li>
                     <li className='py-2 flex flex-col gap-2 mb-5'>
@@ -103,7 +125,7 @@ export default function Sidebar() {
                             <a className='text-xs text-skin-muted font-normal font-interRegular'>11 March 2023</a>
                         </Link>
                         <Link href="#">
-                            <a className='text-2xl text-skin-dark font-normal font-productSansReqular'>Best Portfolio InvestmentTips and Tricks</a>
+                            <a className='md:text-2xl text-base text-skin-dark font-normal font-productSansReqular'>Best Portfolio InvestmentTips and Tricks</a>
                         </Link>
                     </li>
                 </ul>

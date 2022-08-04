@@ -15,10 +15,10 @@ function MobileNav({open, setOpen}) {
                 
             </div>
             <div className="flex flex-col ml-4">
-                <a className="text-xl font-bold my-4 font-interBold" href="/our-community" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <a className="md:text-xl text-lg font-bold my-4 font-interBold" href="/our-community" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Join Our Community
                 </a>
-                <a className="text-xl font-bold my-4 font-interBold" href="#" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <a className="md:text-xl text-lg font-bold my-4 font-interBold" href="/blog" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Blogs
                 </a>
             </div>  
@@ -50,7 +50,7 @@ export default function Navbar() {
                     <span className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
 
-                <div className="hidden md:flex text-xl font-bold font-interBold">
+                <div className="hidden md:flex md:text-xl text-lg font-bold font-interBold">
                     <NavLink to="/our-community">
                         Join Our Community
                     </NavLink>

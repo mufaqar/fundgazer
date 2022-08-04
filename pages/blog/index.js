@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import BlogFooter from '../components/blogFooter'
 import Post_template from '../components/post-template'
 
 import Sidebar from '../components/sidebar'
@@ -8,7 +9,7 @@ export default function Blog() {
     return (
         <>
             <section>
-                <div className='container mx-auto pt-10 flex items-center'>
+                <div className='container mx-auto pt-28 pb-6 flex items-center'>
                     <div className='p-4'>
                         <h1 className='md:text-6xl text-3xl font-bold text-[#E86A34] font-productSansBold'>Blogs</h1>
                     </div>
@@ -82,6 +83,7 @@ export default function Blog() {
                     </div>
                 </div>
             </section>
+            <BlogFooter />
         </>
     )
 }
