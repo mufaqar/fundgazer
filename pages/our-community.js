@@ -11,7 +11,7 @@ export default function OurCommunity() {
     <section>
         <div className='container mx-auto py-20 grid md:grid-cols-2 grid-cols-1 gap-8 items-center'>
             <div className="p-4">
-                <h1 className='text-6xl font-normal '><span className='text-skin-primary font-bold'>Join</span> Our Community</h1>
+                <h1 className='text-6xl font-normal font-interRegular'><span className='text-skin-primary font-bold'>Join</span> Our Community</h1>
                 <p className='text-xl font-medium mt-3'>We are all about giving personal investors the tools and resources they need, to make informed decisions.</p>
             </div>
             <div className="flex items-center md:justify-end justify-center space-x-4 p-4">
