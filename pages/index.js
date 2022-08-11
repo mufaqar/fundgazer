@@ -14,7 +14,7 @@ export default function Home() {
               <p className='text-xl font-medium mt-3 font-interRegular'>From building your diversified long-term portfolio and tracking your assets to finding investment ideas, we <br></br>got you covered.</p>
             </div>
             <Link href="#">
-              <a className='flex space-x-2 items-center text-3xl font-semibold mt-5 font-interMedium group'><span className='text-skin-primary group-hover:animate-bounce'><BsChevronDown strokeWidth={2} /> </span> <span>Join Waitlist</span></a>
+              <a className='flex space-x-2 items-center text-3xl font-semibold mt-5 font-interMedium'><span className='text-skin-primary animate-bounce'><BsChevronDown strokeWidth={2} /> </span> <span>Join Waitlist</span></a>
             </Link>
           </div>
           <div className="p-4">
