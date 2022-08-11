@@ -5,7 +5,7 @@ import BlogFooter from '../components/blogFooter'
 import { FaLinkedinIn, FaRegThumbsDown, FaRegThumbsUp } from 'react-icons/fa'
 import RelatedPosts from '../components/relatedPosts'
 import Comment_Section from '../components/comment-section'
-import { BsFacebook, BsTwitter } from 'react-icons/bs'
+import { BsFacebook, BsTwitter, BsWhatsapp } from 'react-icons/bs'
 
 export default function Single_Post() {
     return (
@@ -14,7 +14,7 @@ export default function Single_Post() {
                 <div className='container mx-auto pt-28 pb-10'>
                     <div className='flex md:flex-row flex-col gap-16'>
                         {/* Posts Column Start*/}
-                        <div className='md:w-9/12 w-full p-5'>
+                        <div className='md:w-9/12 w-full p-5 md:pl-10'>
                             <div className='mb-7'>
                                 <ul className='mb-5'>
                                     <li>
@@ -31,12 +31,13 @@ export default function Single_Post() {
                                 <span className='font-interRegular text-sm font-normal italic text-skin-muted'>Photo caption if any goes here</span>
                             </div>
                             <div>
-                                <div>
-                                    <ul className='flex gap-5 items-center'>
+                                <div className='md:border-0 border border-gray-200 p-5 mb-5'>
+                                    <ul className='md:flex-col flex gap-5 items-center md:fixed left-4 top-1/3 z-40'>
                                         <li className='font-productSansBold md:text-xl text-sm font-bold text-skin-dark'>Share</li>
                                         <li className='text-2xl bg-[#E86A34] text-skin-light p-2 rounded-full'><Link href="#"><a><BsFacebook/></a></Link></li>
                                         <li className='text-2xl bg-[#E86A34] text-skin-light p-2 rounded-full'><Link href="#"><a><BsTwitter/></a></Link></li>
                                         <li className='text-2xl bg-[#E86A34] text-skin-light p-2 rounded-full'><Link href="#"><a><FaLinkedinIn/></a></Link></li>
+                                        <li className='text-2xl bg-[#E86A34] text-skin-light p-2 rounded-full'><Link href="#"><a><BsWhatsapp/></a></Link></li>
                                        
                                     </ul>
                                 </div>
