@@ -10,7 +10,7 @@ export default function Home() {
         <div className='container mx-auto min-h-screen h-full py-20 grid md:grid-cols-2 grid-cols-1 items-center gap-4'>
           <div className="p-4 flex flex-col justify-between">
             <div>
-              <h1 className='text-6xl font-thin font-interRegular'>The123 <span className='text-skin-primary font-bold'>Future</span> of Personal Investment.</h1>
+              <h1 className='text-6xl font-thin font-interRegular'>The <span className='text-skin-primary font-bold'>Future</span> of Personal Investment.</h1>
               <p className='text-xl font-medium mt-3 font-interRegular'>From building your diversified long-term portfolio and tracking your assets to finding investment ideas, we <br></br>got you covered.</p>
             </div>
             <Link href="#">
